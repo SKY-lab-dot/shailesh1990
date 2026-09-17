@@ -10,3 +10,8 @@ resource "azurerm_resource_group" "rg" {
     location = "centralindia"
   
 }
+resource "azurerm_resource_group" "rg" {
+    name = "sit2"
+    location = "centralindia"
+  
+}
