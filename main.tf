@@ -36,7 +36,7 @@ resource "azurerm_resource_group" "rg" {
     location = "centralindia"
   
 }
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "rg_dev" {
   name     = "rg-dev"
   location = "East US"
 
