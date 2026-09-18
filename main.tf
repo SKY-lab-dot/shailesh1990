@@ -36,3 +36,12 @@ resource "azurerm_resource_group" "rg" {
     location = "centralindia"
   
 }
+resource "azurerm_resource_group" "rg" {
+  name     = "rg-dev"
+  location = "East US"
+
+  tags = {
+    environment = "dev"
+    owner       = "shailesh"
+  }
+}
